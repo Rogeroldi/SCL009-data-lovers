@@ -14,7 +14,7 @@ const filterType = (codePoke, condition) => {
   return resultFilterType;
 }
 window.filterType = filterType;
-window.win.onload=function getAllPokemon()
+window.win.onload =function getAllPokemon()
 {
 	var pokemonList = POKEMON.pokemon;
 	return(pokemonList);	
@@ -74,3 +74,4 @@ function getPokemonByWeakness(weaknesses)
 		return(foundList);
 	return("No existen pokemones asociados a esa debilidad");
 
+};
