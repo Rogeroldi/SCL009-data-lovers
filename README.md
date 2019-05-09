@@ -1,8 +1,8 @@
 # **Data Lovers**
-## **Pokedex**
+## **CodePoke**
 ## **Índice**
-https://youtu.be/z8HNy05cZZc
-* [Pokedex](#pokedex)
+
+* [CodePoke](#CodePoke)
 * [Definición del producto](#definición-del-producto)
 * [Proceso del diseño](#proceso-del-diseño)
 * [Planificacion del proyecto](#planificación-del-proyecto)
@@ -14,7 +14,7 @@ https://youtu.be/z8HNy05cZZc
 * [Test de Usabilidad](#checklist)
 
 ***
-## **1. Pokedex**
+## **1. CodePoke**
  Es un proyecto encargado por Laboratoria que consiste en
  construir una interfaz complementaria, amigable y entendible por el usuario de la aplicacion Pokémon GO.
 
@@ -75,19 +75,30 @@ y planificando tus tareas.
 
 ## **5. Ecuesta aplicada**
 Se realizó una encuesta de usuario con la intención de  comprender mejor las preferencias y alcanzar los objetivos del proyecto en función de las necesidades de los usuarios y así analizar los aspectos en que debíamos enfocarnos.
+La encuesta se dirigió a jugadores activos de la aplicación Pokémon Go.
 https://forms.gle/CGWiLdH5KgDmoQU99
 <a href="https://ibb.co/P45KTwg"><img src="https://i.ibb.co/P45KTwg/Captura-de-pantalla-2.png" alt="Captura-de-pantalla-2" border="0"></a>
 <a href="https://ibb.co/qyLpBh6"><img src="https://i.ibb.co/qyLpBh6/Captura-de-pantalla-4.png" alt="Captura-de-pantalla-4" border="0"></a>
 <a href="https://ibb.co/D1Vfg8Y"><img src="https://i.ibb.co/D1Vfg8Y/Captura-de-pantalla-6.png" alt="Captura-de-pantalla-6" border="0"></a>
 
+### **5.1 Análisis de resultados **
+<img src="https://i.ibb.co/9TgJd19/Captura-de-pantalla-30.png" alt="Captura-de-pantalla-30" border="0">
+Al identificar el rango etario de nuestros usuarios se aprecia que mas del 50% de la muestra se encuentra entre 23 y 32 años y el 12% a niños entre 12 y 15 años.
+<img src="https://i.ibb.co/xJ9CNVP/Captura-de-pantalla-32.png" alt="Captura-de-pantalla-32" border="0">
+Existe un 9% más de hombres que mujeres que juegan Pokémon Go.
+<img src="https://i.ibb.co/TKW8f3Z/Captura-de-pantalla-34.png" alt="Captura-de-pantalla-34" border="0">
+Mayoritariamente los usuarios desacargan la aplicación por entretención y otros generalmente mayores de 28 años por nostalgia de la serie animada Pokémon.
+<img src="https://i.ibb.co/zn4N5Bm/Captura-de-pantalla-36.png" alt="Captura-de-pantalla-36" border="0">
+Los datos que los usuarios querían acceder son la evolución, el tipo y las debilidades de los pokemons mayoritariamente.
 
+<img src="https://i.ibb.co/cr8KX86/Captura-de-pantalla-23.png" alt="Captura-de-pantalla-23" border="0">
+Para esta pregunta abierta se obtuvieron datos generales, pero que nos sirvieron posteriormente para realizar entrevistas y testeos de baja fidelidad.
+<img src="https://i.ibb.co/wdYj5ML/Captura-de-pantalla-25.png" alt="Captura-de-pantalla-25" border="0">
+El 81%, es decir, la mayoría de los usuarios ha competido  en gimnasios, un espacio virtual de batallas entre los pokemons seleccionados por los jugadores de acuerdo a sus poderes y debilidades.
+<img src="https://i.ibb.co/41WfvCV/Captura-de-pantalla-28.png" alt="Captura-de-pantalla-28" border="0">
+El 76% de los usuarios es capaz de identificar pokémons por su número.
 
-
-
-### **5.1 Definición del producto**
-
-
-### **5.2 Historias de usuario**
+### **5.2 Definición del productoHistorias de usuario**
 
 Una vez que entiendas las necesidades de tu usuario, escribe las [Historias
 de Usuario](https://es.wikipedia.org/wiki/Historias_de_usuario) que representen
