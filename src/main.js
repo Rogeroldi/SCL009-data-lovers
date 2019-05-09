@@ -30,19 +30,19 @@ let pokepoke = (codePoke) => {
 }
 window.onload = pokepoke(codePoke);
 
- //window.selectType = selectType;
+//window.selectType = selectType;
 let guardar = document.getElementById("type");
 guardar.addEventListener("change", () => {
-		
+
   let condition = guardar.options[guardar.selectedIndex].value;
-//console.log(condition);
-  let filter =window.pokedexType(codePoke,condition);
-  rootBody.innerHTML ="";
+  //console.log(condition);
+  let filter = window.pokedexType(codePoke, condition);
+  rootBody.innerHTML = "";
 
-  filter.forEach(element =>{
-  rootBody.innerHTML +=
+  filter.forEach(element => {
+    rootBody.innerHTML +=
 
-    `<div class="col-sm-2">
+      `<div class="col-sm-2">
     <img src="${element.img}" class="card-img-top" alt="Poke">
     <div class="card-body">
         <div class="col-sm-2">
@@ -55,4 +55,31 @@ guardar.addEventListener("change", () => {
   </div>`
   })
 
-    });
+});
+window.onload = pokepoke(codePoke);
+
+//window.selectWeaknesses = selectType;
+let guardar = document.getElementById("waknessese");
+guardar.addEventListener("change", () => {
+
+  let condition = guardar.options[guardar.selectedIndex].value;
+  //console.log(condition);
+
+  let filter = window.pokedexWaknessese(codePoke, condition);
+  rootBody.innerHTML = "";
+
+  filter.forEach(element => {
+    rootBody.innerHTML +=
+
+      `<div class="col-sm-2">
+       <img src="${element.img}" class="card-img-top" alt="Poke">
+       <div class="card-body">
+           <div class="col-sm-2">
+         <h5 class="card-title">"Nombre:${element.name}"</h5>
+         <h6 class="card-title">"Número:${element.num}"</h6>
+         <p class="card-text">"Tipo:${element.type}"</p>
+         <a href="#" class="btn-primary">Evolucion</a>
+         </div>
+       </div>
+     </div>`
+  })

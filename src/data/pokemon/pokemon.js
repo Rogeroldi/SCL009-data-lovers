@@ -17,7 +17,7 @@ const POKEMON = {
     "avg_spawns": 69,
     "spawn_time": "20:00",
     "multipliers": [1.58],
-    "weaknesses": [
+    "waknessese": [
       "Fire",
       "Ice",
       "Flying",

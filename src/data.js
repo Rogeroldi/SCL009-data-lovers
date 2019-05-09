@@ -28,10 +28,24 @@
     });
 
   }
+  const pokedexWaknessese = (codePoke, condition) => {
+    const pokeByFilter = codePoke.filter(element => {
+  
+      return element.waknessese.includes(condition);
+      
+      
+    });
+  
+    return pokeByFilter;
+  
+  }
+  window.pokedexWaknessese = pokedexWaknessese;
+
+  
   
  /* function getPokemonByName(name) {
     var pokemonList = POKEMON.pokemon; //pokrmonlist es la variable que guardara el pokemon que se busque
-    for (var i = 0; i < pokemonList.length; i++) {
+    for (let i = 0; i < pokemonList.length; i++) {
       if (pokemonList[i].name.toLowerCase() == name.toLowerCase())
         return (pokemonList[i]);
     }
@@ -41,8 +55,8 @@
   
   function getPokemonById(id) {
   
-    var pokemonList = POKEMON.pokemon;
-    for (var i = 0; i < pokemonList.length; i++) {
+    let pokemonList = POKEMON.pokemon;
+    for (let i = 0; i < pokemonList.length; i++) {
       if (pokemonList[i].id == id)
         return (pokemonList[i]);
     }
@@ -50,10 +64,10 @@
   }
   
   function getPokemonByType(type) {
-    var pokemonList = POKEMON.pokemon;
-    var foundList = [];
-    for (var i = 0; i < pokemonList.length; i++) {
-      for (var j = 0; j < pokemonList[i].type.length; j++) {
+    let pokemonList = POKEMON.pokemon;
+    let foundList = [];
+    for (let i = 0; i < pokemonList.length; i++) {
+      for (let j = 0; j < pokemonList[i].type.length; j++) {
         if (pokemonList[i].type[j].toLowerCase() == type.toLowerCase())
           foundList.push(pokemonList[i]);
       }
@@ -64,10 +78,10 @@
   }
   
   function getPokemonByWeakness(weaknesses) {
-    var pokemonList = POKEMON.pokemon;
-    var foundList = [];
-    for (var i = 0; i < pokemonList.length; i++) {
-      for (var j = 0; j < pokemonList[i].weaknesses.length; j++) {
+    let pokemonList = POKEMON.pokemon;
+    let foundList = [];
+    for (let i = 0; i < pokemonList.length; i++) {
+      for (let j = 0; j < pokemonList[i].weaknesses.length; j++) {
         if (pokemonList[i].weaknesses[j].toLowerCase() == weaknesses.toLowerCase())
           foundList.push(pokemonList[i]);
       }
