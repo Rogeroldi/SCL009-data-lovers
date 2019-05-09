@@ -86,9 +86,6 @@ https://forms.gle/CGWiLdH5KgDmoQU99
 
 ### **5.1 Definición del producto**
 
-Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
-contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el problema (o problemas) que tiene tu usuario.
 
 ### **5.2 Historias de usuario**
 
@@ -100,11 +97,13 @@ de terminado (_definition o done_) para cada una.
 ### **5.3 Diseño de la Interfaz de Usuario**
 
 #### Prototipo de baja fidelidad
+<a href="https://ibb.co/vZSVpHN"><img src="https://i.ibb.co/vZSVpHN/Whats-App-Image-2019-05-09-at-09-29-07.jpg" alt="Whats-App-Image-2019-05-09-at-09-29-07" border="0"></a>
+<a href="https://ibb.co/gM13cBB"><img src="https://i.ibb.co/gM13cBB/Whats-App-Image-2019-05-09-at-09-29-08.jpg" alt="Whats-App-Image-2019-05-09-at-09-29-08" border="0"></a>
+<a href="https://ibb.co/N9KQpZW"><img src="https://i.ibb.co/N9KQpZW/Whats-App-Image-2019-05-09-at-09-29-15.jpg" alt="Whats-App-Image-2019-05-09-at-09-29-15" border="0"></a>
+<a href="https://ibb.co/R2t58Km"><img src="https://i.ibb.co/R2t58Km/Whats-App-Image-2019-05-09-at-09-29-14.jpg" alt="Whats-App-Image-2019-05-09-at-09-29-14" border="0"></a>
+<a href="https://ibb.co/RbsWg3V"><img src="https://i.ibb.co/RbsWg3V/Whats-App-Image-2019-05-09-at-09-29-09.jpg" alt="Whats-App-Image-2019-05-09-at-09-29-09" border="0"></a>
 
-Durante tu trabajo deberás haber hecho e iterado sketches (boceto) de tu
-solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
-iteraciones que realices, y las subas a tu repositorio, y las menciones en tu
-`README.md`.
+
 
 #### Prototipo de alta fidelidad
 
